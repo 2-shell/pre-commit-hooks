@@ -14,9 +14,8 @@
 
 -   id: clang-format-diff
     name: clang-format-diff
-    entry: clang_format.py
-    language: script
-    args: ['18.0.0','diff']
+    entry: git clang-format --binary clang-format-19
+    language: python
     require_serial: true
 
 
